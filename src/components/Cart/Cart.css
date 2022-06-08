@@ -1,0 +1,36 @@
+.summery h3 {
+  text-align: center;
+  font-size: 1.3em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.summery p {
+  margin: 3px;
+}
+
+.subtotal {
+  color: crimson;
+  font-weight: 500;
+  border-top: 1px solid lightgray;
+  font-size: 1.3em;
+}
+
+.summery button {
+  display: inline-block;
+  background-color: goldenrod;
+  font-family: inherit;
+  border: none;
+  font-size: inherit;
+  padding: 5px 25px;
+  font-weight: 500;
+  border-radius: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: all 0.1s linear;
+}
+
+.summery button:hover {
+  background-color: seagreen;
+  color: white;
+}
