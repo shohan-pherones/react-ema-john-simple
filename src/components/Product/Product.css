@@ -1,0 +1,46 @@
+.product {
+  display: flex;
+  border-bottom: 1px solid lightgray;
+  padding: 10px 5px;
+  margin-right: 5px;
+}
+
+.product-name {
+  font-size: 1.1em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.image-wrapper {
+  margin-right: 20px;
+}
+
+.seller {
+  color: seagreen;
+  font-weight: 500;
+}
+
+.seller-wrapper {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.price {
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.price-tag {
+  color: crimson;
+  font-size: 1.2em;
+}
+
+.stock-wrapper {
+  margin: 0;
+}
+
+.stock-count {
+  color: goldenrod;
+  font-weight: 500;
+}

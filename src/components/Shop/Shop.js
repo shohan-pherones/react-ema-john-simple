@@ -1,11 +1,14 @@
 import React, { useEffect, useState } from "react";
+import Product from "../Product/Product";
 import "./Shop.css";
 
 const Shop = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch("./products.json")
+    fetch(
+      "https://raw.githubusercontent.com/ProgrammingHero1/ema-john-simple-resources/master/fakeData/products.JSON"
+    )
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);
@@ -13,8 +16,9 @@ const Shop = () => {
   return (
     <div className="shop-container">
       <div className="product-container">
-        <h3>Products: {products.length}</h3>
-        {products.map((product) => console.log(product))}
+        {products.map((product) => (
+          <Product product={product} key={product.id}></Product>
+        ))}
       </div>
       <div className="cart-container">
         <h3>Order Summery:</h3>
