@@ -24,6 +24,7 @@ const Product = (props) => {
             stock!
           </small>
         </p>
+        <button>Buy Now</button>
       </div>
     </div>
   );
