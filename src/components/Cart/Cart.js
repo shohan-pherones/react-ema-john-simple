@@ -23,6 +23,7 @@ const Cart = (props) => {
       <p>Shipping: ${shipping.toFixed(2)}</p>
       <p>Tax: ${tax.toFixed(2)}</p>
       <p className="subtotal">Subtotal: ${subtotal.toFixed(2)}</p>
+      <button>Review Your Order</button>
     </div>
   );
 };
