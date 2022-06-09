@@ -3,6 +3,23 @@
   grid-template-columns: 3fr 1fr;
 }
 
+.search-container {
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  padding: 15px 0;
+}
+
+.search-container input {
+  width: 60%;
+  font-family: inherit;
+  border: none;
+  outline: none;
+  font-size: inherit;
+  padding: 5px;
+  border-radius: 3px;
+  padding-left: 20px;
+}
+
 .product-container {
   border-right: 1px solid lightgray;
   margin-right: 10px;

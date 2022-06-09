@@ -40,18 +40,23 @@ const Shop = () => {
   };
 
   return (
-    <div className="shop-container">
-      <div className="product-container">
-        {products.map((product) => (
-          <Product
-            product={product}
-            key={product.key}
-            handleAddToCart={handleAddToCart}
-          ></Product>
-        ))}
+    <div>
+      <div className="search-container">
+        <input type="text" placeholder="Search any product..." />
       </div>
-      <div className="cart-container">
-        <Cart cart={cart}></Cart>
+      <div className="shop-container">
+        <div className="product-container">
+          {products.map((product) => (
+            <Product
+              product={product}
+              key={product.key}
+              handleAddToCart={handleAddToCart}
+            ></Product>
+          ))}
+        </div>
+        <div className="cart-container">
+          <Cart cart={cart}></Cart>
+        </div>
       </div>
     </div>
   );
