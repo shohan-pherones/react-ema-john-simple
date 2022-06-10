@@ -54,7 +54,7 @@
   padding: 5px 25px;
   font-weight: 500;
   border-radius: 5px;
-  margin-top: 15px;
+  margin-top: 10px;
   cursor: pointer;
   transition: all 0.1s linear;
 }
@@ -62,4 +62,8 @@
 .product button:hover {
   background-color: seagreen;
   color: white;
+}
+
+.icon-color {
+  color: gold;
 }
